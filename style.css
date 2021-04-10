@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .div1{
+      overflow: none;
+      float: right;
+  }
+.div2{
+    background-color: rgb(255, 255, 255);
+}
+
+.bg {
+    margin: 0;
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
